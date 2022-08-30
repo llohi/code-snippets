@@ -29,7 +29,8 @@ def SieveOfEratosthenes(n):
 
 def main():
 
-    SieveOfEratosthenes(100)
+    n = int(input("Enter n: "))
+    SieveOfEratosthenes(n)
     
 
 
