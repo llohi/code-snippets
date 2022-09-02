@@ -1,4 +1,4 @@
--- Implementation of the quick sort algorithm.
+-- Simple implementation of the quick sort algorithm.
 
 quicksort :: (Ord a) => [a] -> [a]
 quicksort [] = []
